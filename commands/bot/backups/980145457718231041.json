@@ -1,0 +1,514 @@
+{
+    "name": "Nowa #NewEra",
+    "region": "deprecated",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "enabled": false,
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "💋・Important (tempo)",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 2048
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📢・annonces-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋・Important (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌹・join-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋・Important (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔮・boosts-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋・Important (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎁・nitro-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💋・Important (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🌹Salons textuels (tempo)",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📜・chat-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌹Salons textuels (tempo)",
+                        "topic": "FICHA/Dox=Ban",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📸・média-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌹Salons textuels (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 32768,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💻・cmd-tempo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌹Salons textuels (tempo)",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "🌹Salons vocaux (tempo)",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・ Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・Tempo",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "🌹Salons vocaux (tempo)",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "⏳・Voc tempo",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "➕・Crée ton vocal",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "⏳・Voc tempo",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "⏰・! leuzix",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "⏳・Voc tempo",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "voice",
+                "name": "👑・Table Ronde",
+                "bitrate": 8000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1048576
+                    }
+                ]
+            },
+            {
+                "type": "voice",
+                "name": "▬▬▬▬▬▬▬▬▬▬",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ]
+            },
+            {
+                "type": "voice",
+                "name": "💎・Membres: 50",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ]
+            },
+            {
+                "type": "voice",
+                "name": "🌟・En ligne: 1",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ]
+            },
+            {
+                "type": "voice",
+                "name": "🎧・En vocal: 1",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ]
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "ADD = BL",
+            "color": "#0b0a0a",
+            "hoist": true,
+            "permissions": 104140297,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "On Arrive",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": 104140297,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Futur Admin",
+            "color": "#e00a0a",
+            "hoist": true,
+            "permissions": 104140297,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Futur Staff",
+            "color": "#206694",
+            "hoist": true,
+            "permissions": 104140289,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104140289,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1653755287342,
+    "guildID": "979156358165303377",
+    "id": "980145457718231041",
+    "iconURL": "https://cdn.discordapp.com/icons/979156358165303377/a_fd1fcf5ada084c2833b21d29aa144194.gif"
+}

@@ -1,0 +1,2496 @@
+{
+    "name": "🌺・Nether Bots",
+    "region": "deprecated",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "・logs",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📁・logs-raid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📁・logs-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📁・logs-vocal",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "📁・logs-mods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "・admin",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "admin-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "admin-cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 1088
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "STATISTIQUE",
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 64
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "💎・Membres: 78",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🌟・En ligne: 40",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🎧・En vocal: 0",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "🔮・Boost: 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "STATISTIQUE",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 1048640
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "・bot",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2100224,
+                        "deny": 131136
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🔔・annonce-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🚩・rôle",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌺・bot-perso-gestion-tool",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌺・bot-perso-music",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌺・bot-perso-ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・bot",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "BOT PUBLIQUE",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2100225,
+                        "deny": 64
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "🌺・bot-music",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "BOT PUBLIQUE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "・important",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2100224,
+                        "deny": 131136
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📚・règles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔔・annonce",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔔・statut-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔮・boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🎉・giveaway",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🌺・soutient",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "💡・partnariat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・important",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "・support",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2100224,
+                        "deny": 131136
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "📌・suggestions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "✨・avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2100224,
+                                "deny": 64
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🔧・support",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "・general",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 131136
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "🔈・vocal",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "・general",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 131136
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "💬・general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 131136
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "🤖・cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 131136
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "💤・sleepcall",
+                        "bitrate": 64000,
+                        "userLimit": 15,
+                        "parent": "・general",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 2099200,
+                                "deny": 131136
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "⚡・pfps",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "・general",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🛎・SUPPORTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・DEVELOPPEURS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺・UTILISATEUR DE BOT PERSO",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Uptime Bot",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "𐐪 🔮— Boosters",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "BOT = BOT",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "💎・VIP/FRIEND’s",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[SPECIAL]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "⭐️・MEMBRES",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🌺",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "NETHERS BOTS",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[BOTS]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "@dmin",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "————[Membres]————",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "” Notifications",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "🕡",
+                                "allow": 0,
+                                "deny": 2112
+                            },
+                            {
+                                "roleName": "Nether Music",
+                                "allow": 0,
+                                "deny": 2112
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Salon temporaire",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 64
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1050688
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "➕・Crée ton salon",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Salon temporaire",
+                        "permissions": [
+                            {
+                                "roleName": "muet",
+                                "allow": 0,
+                                "deny": 1050688
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3148800,
+                                "deny": 64
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "text",
+                "name": "ticket-z33pro-屮",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "🌺・DEVELOPPEURS",
+                        "allow": 3072,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "ticket--leyxx",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "🌺・DEVELOPPEURS",
+                        "allow": 3072,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "ticket-draizou",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "🌺・DEVELOPPEURS",
+                        "allow": 3072,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "ticket-lea",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    },
+                    {
+                        "roleName": "🌺・DEVELOPPEURS",
+                        "allow": 3072,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "ticket-𝐒𝐨𝐬𝐬𝐨-☻",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "muet",
+                        "allow": 0,
+                        "deny": 1048640
+                    },
+                    {
+                        "roleName": "🌺・DEVELOPPEURS",
+                        "allow": 3072,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2099200,
+                        "deny": 1088
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "🕡",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "————[SPECIAL]————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "NETHERS BOTS",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": 1024,
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "BOT = BOT",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "🌺",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "🌺・DEVELOPPEURS",
+            "color": "#0c0101",
+            "hoist": true,
+            "permissions": 1206919041,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "@dmin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 1206978433,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "🛎・SUPPORTS",
+            "color": "#00ffe1",
+            "hoist": true,
+            "permissions": 1206980481,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "💎・VIP/FRIEND’s",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": 1024,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "————[Membres]————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "🌺・UTILISATEUR DE BOT PERSO",
+            "color": "#27fc00",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "⭐️・MEMBRES",
+            "color": "#d8f300",
+            "hoist": true,
+            "permissions": 1024,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "————[BOTS]————",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "” Notifications",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104189505,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1656280749729,
+    "guildID": "973645564765941875",
+    "id": "990738014709874693",
+    "iconURL": "https://cdn.discordapp.com/icons/973645564765941875/a_80eab183d0b768d89d7632a9351ba0b0.gif",
+    "splashURL": "https://cdn.discordapp.com/splashes/973645564765941875/3d47585353a31a75c4bebfffb7fe92af.webp"
+}
