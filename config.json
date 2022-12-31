@@ -1,0 +1,14 @@
+{
+    "token": "TOKEN DU BOT" ,
+  "color":"VOTRE COULEUR ex: ffe000",
+  "prefix": "?",
+  "name": "NOM DE VOTRE BOT",
+  "defaultjoinmessage": "{user} vient de rejoindre. Il a été invité par **{inviter:name}** qui a désormais **{invite} invitations** !",
+    "defaultleavemessage": "{user} vient de quitter. Il avais été invité par **{inviter:name}** qui a désormais **{invite} invitations** ",
+    "defaultLevelmessage": "**{user}** vient de passer au level **{level}** bravo à lui !",
+    "owner": [
+        "VOTRE ID",
+        "ID DES ADMINS",
+        "ID DES ADMINS"
+    ]
+}
